@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Navbar with Dropdown</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<!-- Swiper CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+<body>
+  <!-- nav start  -->
+  <nav class="navabcd">
+  <div class="logoAbcd">MyLogo</div>
+
+  <div class="menuToggleAbcd" id="menuToggleAbcd">&#9776;</div>
+
+  <ul class="navLinksAbcd" id="navLinksAbcd">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Services</a></li>
+
+    <li class="dropdownAbcd">
+      <a href="#" class="dropdownToggleAbcd">Menu</a>
+      <ul class="dropdownMenuAbcd" id="dropdownMenuAbcd">
+        <li><a href="#">Drinks</a></li>
+        <li><a href="#">Dessert</a></li>
+        <li><a href="#">Fast Food</a></li>
+        <li><a href="#">Snacks</a></li>
+      </ul>
+    </li>
+
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+
+  <!-- nav end  -->
+
+
+
+  <!-- bg start  -->
+ <section class="hero-section">
+  <div class="round-image-card">
+    
+  </div>
+
+  <div class="content-box">
+    <h2>Most Popular Dish</h2>
+    <h1>Crispy Brussels<br>Sprouts</h1>
+    <p>
+      Crispy fried brussel sprouts topped with crispy bacon lardons,<br>
+      feta cheese, balsamic reduction & green onions.
+    </p>
+    <a href="#order" class="order-btn">Order Now</a>
+  </div>
+</section>
+
+  <!-- bg end  -->
+
+
+
+  <!-- crousal start  -->
+  <section class="center-carousel-section">
+    <div class="carousel-wrapper">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <!-- Slide 1 -->
+          <div class="swiper-slide">
+            <img src="images/one.jpg" alt="Dish 1">
+            <h3>Crispy Brussels Sprouts</h3>
+            <p>$8.99</p>
+          </div>
+          <!-- Slide 2 -->
+          <div class="swiper-slide">
+            <img src="images/three.jpg" alt="Dish 2">
+            <h3>Grilled Chicken</h3>
+            <p>$12.50</p>
+          </div>
+          <!-- Slide 3 -->
+          <div class="swiper-slide">
+            <img src="images/two.jpg" alt="Dish 3">
+            <h3>Spicy Ramen Bowl</h3>
+            <p>$9.75</p>
+          </div>
+          <!-- Slide 4 -->
+          <div class="swiper-slide">
+            <img src="images/four.jpg" alt="Dish 4">
+            <h3>Veggie Delight</h3>
+            <p>$7.99</p>
+          </div>
+          <!-- Slide 5 -->
+          <div class="swiper-slide">
+            <img src="images/five.jpg" alt="Dish 5">
+            <h3>BBQ Ribs</h3>
+            <p>$14.25</p>
+          </div>
+          <!-- Slide 6 -->
+          <div class="swiper-slide">
+            <img src="images/six.avif" alt="Dish 6">
+            <h3>Seafood Pasta</h3>
+            <p>$13.60</p>
+          </div>
+          <!-- Slide 7 -->
+          <div class="swiper-slide">
+            <img src="images/seven.jpg" alt="Dish 7">
+            <h3>Classic Burger</h3>
+            <p>$10.00</p>
+          </div>
+          <!-- Slide 8 -->
+          <div class="swiper-slide">
+            <img src="images/eight.jpg" alt="Dish 8">
+            <h3>Chicken Wings</h3>
+            <p>$9.45</p>
+          </div>
+          <!-- Slide 9 -->
+          <div class="swiper-slide">
+            <img src="images/nine.jpg" alt="Dish 9">
+            <h3>Garden Salad</h3>
+            <p>$6.75</p>
+          </div>
+          <!-- Slide 10 -->
+          <div class="swiper-slide">
+            <img src="images/ten.jpg" alt="Dish 10">
+            <h3>Chocolate Lava Cake</h3>
+            <p>$5.50</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- crousal end -->
+
+
+  <!-- banner -->
+  <div class="hero-banner">
+  <!-- Golden Stars -->
+  <div class="golden-stars">
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+  </div>
+
+  <div class="container h-100">
+    <div class="row h-100 align-items-center">
+      <div class="col-lg-6 col-md-12 col-12 text-white content-left animate-fade">
+        <h1 class="hero-title">We are Savour</h1>
+        <p class="hero-subtitle">Contented mind<br>is a<br><strong>perpetual</strong> feast</p>
+        <p class="hero-desc">
+          All the dishes you love are just a few clicks away.<br>
+          Order from our full menu, and enjoy the comfort.
+        </p>
+        <button class="btn btn-order">Order Now</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating Card -->
+  <div class="floating-card animate-rise">
+    <img src="images/card3.avif" alt="Dish" class="card-img" />
+    <div class="card-content">
+      <h5>Spicy Ramen</h5>
+      <p>$9.99 · Ready in 15 mins</p>
+    </div>
+  </div>
+</div>
+
+  <!-- banner end  -->
+
+
+  <!-- card round -->
+  <section class="food-menu-section">
+    <div class="container">
+      <div class="menu-header text-center">
+        <h2>Our Food Menu</h2>
+        <p>Let’s Check Menus</p>
+        <div class="golden-line"></div>
+      </div>
+
+      <!-- Buttons -->
+      <div class="menu-buttons d-flex justify-content-center flex-wrap">
+        <button class="menu-btn">Starters</button>
+        <button class="menu-btn">Main Course</button>
+        <button class="menu-btn">Desserts</button>
+        <button class="menu-btn">Drinks</button>
+      </div>
+
+      <!-- Cards -->
+      <div class="menu-cards d-flex flex-wrap justify-content-center">
+
+        <!-- Card 1 -->
+        <div class="menu-card">
+          <div class="round-image">
+            <img src="images/ooo.avif" alt="Dish 1" />
+          </div>
+          <h4>Crispy Brussels Sprouts</h4>
+          <p>Deliciously crisped sprouts with garlic and chili flakes.</p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="menu-card">
+          <div class="round-image">
+            <img src="images/o2.avif" alt="Dish 2" />
+          </div>
+          <h4>Grilled Chicken</h4>
+          <p>Juicy grilled chicken marinated with herbs and spices.</p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="menu-card">
+          <div class="round-image">
+            <img src="images/o3.jpg" alt="Dish 3" />
+          </div>
+          <h4>Spicy Ramen Bowl</h4>
+          <p>Hot & spicy ramen with fresh veggies and tender noodles.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- card round end  -->
+
+
+
+  <!-- double div -->
+  <section class="treat-yourself-section">
+    <div class="golden-circles">
+      <!-- Multiple circles for animation -->
+      <span class="circle small"></span>
+      <span class="circle large"></span>
+      <span class="circle medium"></span>
+      <span class="circle small"></span>
+      <span class="circle large"></span>
+      <span class="circle medium"></span>
+      <span class="circle small"></span>
+      <span class="circle large"></span>
+      <span class="circle medium"></span>
+    </div>
+
+    <div class="container treat-flex">
+      <!-- Left Image + Text -->
+      <div class="left-div">
+        <img src="images/three.jpg" alt="Cooking" />
+        <h3>You Can learn cooking from us!</h3>
+      </div>
+
+      <!-- Right Content -->
+      <div class="right-div">
+        <h2>Treat yourself to our daily specials</h2>
+        <div class="decorative-line"></div>
+        <p>
+          Spend more time enjoying yourself and less time stressing about the details with catering from Us.
+        </p>
+        <button class="btn treat-btn">Order Now</button>
+      </div>
+    </div>
+  </section>
+  <!-- double div nd  -->
+
+<!-- right doube card and eft content  -->
+ 
+<div class="background-animation"></div>
+
+<div class="main-wrapper">
+  <!-- Left Section -->
+  <div class="left-section">
+    <h1>Our Blog<br>Get Started with the <span class="gold">Savour</span> App</h1>
+    <div class="golden-line"></div>
+    <p class="description">Explore delicious recipes and cooking tips to enhance your kitchen journey.</p>
+    <div class="buttons">
+      <button class="btn btn-primary">Explore More</button>
+      <button class="btn btn-secondary">Get Started</button>
+    </div>
+  </div>
+
+  <!-- Right Section -->
+  <div class="right-section">
+    <div class="main-card">
+      <div class="image-wrapper">
+        <img src="images/ooo.avif" alt="Main Image" class="main-img" />
+      </div>
+      <div class="card-content">
+        <h2>Delicious Dishes</h2>
+        <p>Curated dishes from top chefs.</p>
+      </div>
+      <!-- Inner Small Card -->
+      <div class="small-card">
+        <div class="image-wrapper">
+          <img src="images/o3.jpg" alt="Small Image" class="small-img" />
+        </div>
+        <div class="card-content">
+          <h3>Quick Tips</h3>
+          <p>Easy tips for home cooks.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- right double card and left content end -->
+
+
+
+
+
+<!-- art galery  -->
+ <div class="art-gallery-container">
+  <h2 class="gallery-heading">Art That Speaks</h2>
+  <div class="golden-zigzag-line"></div>
+
+  <div class="gallery-grid">
+    <div class="gallery-card">
+      <img src="images/o2.avif" alt="Art 1">
+      <div class="card-content">
+        <h3>Golden Dawn</h3>
+        <p>A surreal sunrise captured in golden hues.</p>
+      </div>
+    </div>
+    <div class="gallery-card large">
+      <img src="images/o3.jpg" alt="Art 2">
+      <div class="card-content">
+        <h3>City Lights</h3>
+        <p>Abstract reflections of urban chaos and light.</p>
+      </div>
+    </div>
+    <div class="gallery-card">
+      <img src="images/five.jpg" alt="Art 3">
+      <div class="card-content">
+        <h3>Forest Soul</h3>
+        <p>The silence between the trees speaks loudest.</p>
+      </div>
+    </div>
+    <div class="gallery-card large">
+      <img src="images/four.jpg" alt="Art 4">
+      <div class="card-content">
+        <h3>Vintage Echo</h3>
+        <p>Echoes of forgotten memories in golden grain.</p>
+      </div>
+    </div>
+    <div class="gallery-card">
+      <img src="images/kababa card.avif" alt="Art 5">
+      <div class="card-content">
+        <h3>Sky Bound</h3>
+        <p>A flight into the warmth of fading light.</p>
+      </div>
+    </div>
+    <div class="gallery-card">
+      <img src="images/sauce.avif" alt="Art 6">
+      <div class="card-content">
+        <h3>Whispers</h3>
+        <p>When silence tells the strongest stories.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- art glery end  -->
+
+
+
+<!-- our team  -->
+ <section class="team-section">
+  <h2 class="section-title">Awesome Team Members</h2>
+  <div class="underline"></div>
+
+  <div class="team-cards">
+    <div class="team-card">
+      <div class="card-image">
+        <img src="images/s1.jpg" alt="Member 1">
+      </div>
+      <h3>Ali Khan</h3>
+      <p>Frontend Developer</p>
+    </div>
+
+    <div class="team-card">
+      <div class="card-image">
+        <img src="images/s2.jpg" alt="Member 2">
+      </div>
+      <h3>Sara Ahmed</h3>
+      <p>UI/UX Designer</p>
+    </div>
+
+    <div class="team-card">
+      <div class="card-image">
+        <img src="images/s3.avif" alt="Member 3">
+      </div>
+      <h3>Hamza Raza</h3>
+      <p>Backend Engineer</p>
+    </div>
+  </div>
+</section>
+ <!-- uor team end  -->
+
+
+ <!-- blogs start  -->
+  <section class="blog-section">
+  <div class="blog-header">
+    <div class="header-text">
+      <h2>Blog & News</h2>
+      <p>Learn from Blogyh</p>
+    </div>
+    <div class="spinning-star">
+      <img src="images/b1.avif" alt="Star" />
+    </div>
+  </div>
+
+  <div class="art-gallery">
+    <div class="art-box tall">
+      <img src="images/b2.avif" alt="Star" />
+    </div>
+    <div class="art-box">
+      <img src="images/b3.avif" alt="Star" />
+    </div>
+    <div class="art-box wide">
+      <img src="images/b4.jpg" alt="Star" />
+    </div>
+    <div class="art-box">
+     <img src="images/b5.avif" alt="Star" />
+    </div>
+    <div class="art-box tall">
+      <img src="images/b6.avif" alt="Star" />
+    </div>
+    <div class="art-box">
+      <img src="images/b7.avif" alt="Star" />
+    </div>
+    <div class="art-box wide">
+      <img src="images/b8.jpg" alt="Star" />
+    </div>
+    <div class="art-box">
+      <img src="images/b3.avif" alt="Star" />
+    </div>
+  </div>
+
+  <!-- Floating stars -->
+  <div class="particles">
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+  </div>
+</section>
+
+  <!-- blogs end  -->
+
+  <!-- 3round wai one box -->
+
+  <div id="sectionBig123">
+  <div id="textBlock456">
+    <p class="animatedPara anim1">Creativity takes courage.</p>
+    <p class="animatedPara anim2">Design is intelligence made visible.</p>
+    <p class="animatedPara anim3">Simplicity is the ultimate sophistication.</p>
+  </div>
+  <div id="imageBlock789">
+    <div class="mainImgWrapper">
+      <img src="images/kababa card.avif" alt="Main Visual" id="mainImg987" />
+    </div>
+    <div id="circleImgs321">
+      <img src="images/eight.jpg" alt="Icon 1" class="circleIcon999" />
+      <img src="images/bbbb.avif" alt="Icon 2" class="circleIcon999" />
+      <img src="images/tikkka.avif" alt="Icon 3" class="circleIcon999" />
+    </div>
+  </div>
+</div>
+
+
+   <!-- 3round wai one box -->
+
+   <!-- footer start  -->
+<footer id="customFooter">
+  <div class="footer-wrapper">
+    <!-- Left: Logo + Company Name -->
+    <div class="footer-branding">
+      <img src="https://via.placeholder.com/50" alt="Company Logo" class="footer-logo" />
+      <span class="company-name">YourCompany</span>
+    </div>
+
+    <!-- Center: Navigation Links (6) -->
+    <nav class="footer-nav">
+      <a href="#home" class="footer-link">Home</a>
+      <a href="#about" class="footer-link">About Us</a>
+      <a href="#services" class="footer-link">Services</a>
+      <a href="#blog" class="footer-link">Blog</a>
+      <a href="#careers" class="footer-link">Careers</a>
+      <a href="#contact" class="footer-link">Contact</a>
+    </nav>
+
+    <!-- Right: Contact Info + Social Icons -->
+    <div class="footer-contact-social">
+      <div class="contact-info">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffd700" width="20" height="20" viewBox="0 0 24 24"><path d="M6.62 10.79a15.091 15.091 0 006.59 6.59l2.2-2.2a1 1 0 011.12-.21c1.2.48 2.5.75 3.85.75a1 1 0 011 1v3.5a1 1 0 01-1 1C9.94 21 3 14.06 3 5a1 1 0 011-1h3.5a1 1 0 011 1c0 1.35.27 2.65.75 3.85a1 1 0 01-.21 1.12l-2.42 2.42z"/></svg>
+        <span>+1 (234) 567-8901</span>
+      </div>
+      <div class="contact-info">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffd700" width="20" height="20" viewBox="0 0 24 24"><path d="M2 6.62V18a2 2 0 002 2h16a2 2 0 002-2V6.62L12 13 2 6.62z"/></svg>
+        <span>info@yourcompany.com</span>
+      </div>
+      <div class="contact-info">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffd700" width="20" height="20" viewBox="0 0 24 24"><path d="M12 2a10 10 0 1010 10A10.011 10.011 0 0012 2zm4.2 14.15a.816.816 0 01-.75 1.15 1.16 1.16 0 01-.36-.06 3.7 3.7 0 01-1.06-.52 7.6 7.6 0 01-2.45-3.08c-.15-.29-.29-.56-.41-.79a3.82 3.82 0 01-.19-.39 4.27 4.27 0 01-.31-1.66c0-.11.02-.21.03-.31s.04-.26.06-.4l.12-.48h3.57l.36.05a.732.732 0 01.49.27 1.62 1.62 0 01.19.48 6.23 6.23 0 01.2 2.2c0 .37-.06.65-.17.82a1.72 1.72 0 01-.48.62z"/></svg>
+        <span>www.yourcompany.com</span>
+      </div>
+
+      <div class="social-icons">
+        <a href="#" aria-label="Facebook" class="social-icon" target="_blank" rel="noopener">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="#ffd700" width="24" height="24" viewBox="0 0 24 24"><path d="M22 12a10 10 0 1 0-11.5 9.85v-6.96h-2.6v-2.89h2.6v-2.2c0-2.56 1.52-3.98 3.85-3.98 1.11 0 2.28.2 2.28.2v2.5h-1.27c-1.25 0-1.64.78-1.64 1.57v1.91h2.8l-.45 2.89h-2.35v6.96A10 10 0 0 0 22 12z"/></svg>
+        </a>
+        <a href="#" aria-label="Twitter" class="social-icon" target="_blank" rel="noopener">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="#ffd700" width="24" height="24" viewBox="0 0 24 24"><path d="M22.46 6c-.77.35-1.6.58-2.46.69a4.3 4.3 0 0 0 1.88-2.37 8.6 8.6 0 0 1-2.72 1.04 4.29 4.29 0 0 0-7.31 3.91A12.17 12.17 0 0 1 3.15 4.8a4.29 4.29 0 0 0 1.33 5.73 4.28 4.28 0 0 1-1.94-.53v.05a4.29 4.29 0 0 0 3.44 4.21 4.3 4.3 0 0 1-1.93.07 4.29 4.29 0 0 0 4 3 8.6 8.6 0 0 1-5.32 1.83 8.8 8.8 0 0 1-1.02-.06 12.12 12.12 0 0 0 6.56 1.92c7.88 0 12.2-6.54 12.2-12.2 0-.18 0-.36-.01-.53A8.7 8.7 0 0 0 22.46 6z"/></svg>
+        </a>
+        <a href="#" aria-label="Instagram" class="social-icon" target="_blank" rel="noopener">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="#ffd700" width="24" height="24" viewBox="0 0 24 24"><path d="M7.75 2A5.75 5.75 0 0 0 2 7.75v8.5A5.75 5.75 0 0 0 7.75 22h8.5A5.75 5.75 0 0 0 22 16.25v-8.5A5.75 5.75 0 0 0 16.25 2h-8.5zm8.5 1.5a4.25 4.25 0 1 1 0 8.5 4.25 4.25 0 0 1 0-8.5zm-6 1a5.25 5.25 0 1 0 6 6 5.25 5.25 0 0 0-6-6zM18 7.25a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/></svg>
+        </a>
+        <a href="#" aria-label="LinkedIn" class="social-icon" target="_blank" rel="noopener">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="#ffd700" width="24" height="24" viewBox="0 0 24 24"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zm.02 6.75h4.83v10.5H5v-10.5zM14.5 10.25c-1.6 0-2.34.88-2.74 1.5v-1.3H8.93v10.5h4.82v-5.7c0-1.1.2-2.18 1.57-2.18 1.35 0 1.36 1.3 1.36 2.25v5.63h4.83v-6.1c0-3.28-1.75-4.81-4.08-4.81z"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+  <!-- crousa start -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 20,
+      loop: true,
+      autoplay: {
+        delay: 3000, // 3 seconds delay between slides
+        disableOnInteraction: false, // User interaction won't stop autoplay
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 2,
+        },
+        1024: {
+          slidesPerView: 3,
+        },
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+  <!-- crousal end  -->
+
+  <script>
+  const menuToggle = document.getElementById("menuToggleAbcd");
+  const navLinks = document.getElementById("navLinksAbcd");
+
+  menuToggle.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+  });
+</script>
+
+
+  <!-- art gallery  -->
+   <script>
+  document.querySelectorAll('.gallery-card').forEach(card => {
+    card.addEventListener('click', () => {
+      card.classList.toggle('active');
+    });
+  });
+</script>
+<!-- art gaert script end  -->
+
+</body>
+
+</html>
